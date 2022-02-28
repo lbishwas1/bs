@@ -1,0 +1,35 @@
+.registerimg{
+    max-height:400px;
+    position: absolute;
+    right: 100px;
+  }
+  .content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: center;
+      margin-top: 40px;
+  }
+  .input{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom:10px;
+        margin:0;
+  }
+  .getpassword,.getname,.getemail{
+      margin:5px;
+      padding-left: 40px;
+      width: 400px;
+  }
+ 
+  .setdata{
+      height:76px;
+      background-color: honeydew;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  .setdata:hover{
+  background-color: lightgreen;
+  cursor: pointer;
+  }

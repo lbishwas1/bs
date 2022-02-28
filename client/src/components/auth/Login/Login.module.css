@@ -1,0 +1,37 @@
+.loginimg{
+  max-height:600px;
+  position: absolute;
+  right: 100px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 80px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:10px;
+
+}
+.getusername{
+    width: 400px;
+    padding-left: 40px;
+}
+.getpassword{
+    width: 400px;
+    padding-left: 40px;
+}
+.setdata{
+    height:76px;
+    background-color: honeydew;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.setdata:hover{
+background-color: lightgreen;
+cursor: pointer;
+}

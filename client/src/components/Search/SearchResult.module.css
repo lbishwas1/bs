@@ -1,0 +1,151 @@
+.searchresult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.searchbar{
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    display: flex;
+}
+.catBtn{
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+    background-color: honeydew;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.catBtn:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+input{
+   
+    border: 2px solid black;
+    margin-top: 20px;
+    height:70px;
+}
+
+h1{
+    text-transform: uppercase;
+    margin-top: 80px;
+    font-size: 60px;
+}
+.input{
+    display: inline-flex;
+}
+.getdata{
+    width: 450px;
+    font-size: 20px;
+    outline: none;
+    padding-left: 40px; 
+    margin-bottom: 40px;
+}
+.setdata{
+    width:200px;
+    height:76px;
+    border-left:none;
+    background-color: honeydew;
+    font-size: 20px;
+}
+.setdata:hover{
+background-color: lightgreen;
+cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+  .headerimg{
+    display: none;
+  }
+  .searchbar{
+      width: 400px;
+  }
+  .input{
+      display: inline;
+  }
+  .getdata{
+    width: 350px; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.setdata{
+    border-left: 2px solid black;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+}
+.shelf{
+height:130px;
+width: 800px;
+margin-left: 200px;
+margin-top: 40px;
+background-color: cadetblue;
+padding:20px;
+display: inline-flex;
+}
+
+.bookimg{
+    width: 150px;
+    height: auto;
+    margin-right: 40px;
+    
+}
+
+.content{
+    margin-left:50px;
+    justify-content: center;
+}
+.get{
+    height:40px;
+    width:150px;
+    margin-left: 300px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 20px;
+    
+}
+.get:hover{
+    height:40px;
+    width:150px;
+    background-color: rgb(60, 236, 60);
+    border: none;
+    border-radius: 20px;
+}
+h2{
+    text-align: left;
+    margin-left: 200px;
+}
+.results{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.resultCard{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    border:1px solid lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.bookCover{
+    width: 300px;
+    border-radius: 20px 20px 0 0;
+}
+p{
+    margin-bottom: 2px;
+}

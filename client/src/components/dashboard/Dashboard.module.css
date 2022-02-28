@@ -1,0 +1,38 @@
+.verticalnav{
+    width:200px;
+    height:100%;
+    position: fixed;
+    z-index: 1;
+    background-color: honeydew;
+    display: flex;
+    flex-direction: column;
+
+}
+.navitem{
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    margin-left: 10px;
+}
+.navli{
+    margin-top: 30px;
+    font-weight:bold;
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+.dashcontent{
+    display: inline-flex;
+}
+.pp{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.username{
+    text-align: center;
+}
