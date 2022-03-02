@@ -9,9 +9,11 @@ import store from "./store";
 import jwt_decode from "jwt-decode";
 import setAuthToken from "./utils/setAuthToken";
 import { setCurrentUser, logoutUser } from "./actions/authAction";
+import Settings from './components/dashboardpages/Settings';
 // import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/dashboard/Dashboard";
 import PrivateRoute from './components/auth/PrivateRoute';
+import MyBooks from './components/dashboardpages/MyBooks';
 
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
@@ -42,6 +44,9 @@ function App() {
 						<Route path="/login" component={Login} />
 						<Route path="/register" component={Register} />
 						<PrivateRoute exact path="/dashboard" component={Dashboard} />
+						<PrivateRoute path="/settings" component={Settings} />
+						<PrivateRoute path="/mybooks" component={MyBooks} />
+
 					</Switch>
 				</div>
 			</Router>

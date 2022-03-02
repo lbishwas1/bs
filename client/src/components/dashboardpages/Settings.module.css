@@ -1,0 +1,22 @@
+.change{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left:100px;
+}
+.changeCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    height: 150px;
+    margin: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+  background-color: honeydew;
+}
+.changeCard:hover{
+    transform: scale(1.1);
+    animation-delay: 2s;
+}
